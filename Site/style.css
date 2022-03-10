@@ -1,0 +1,124 @@
+body{
+    margin: 0 auto;
+}
+
+header{
+    display: flex;
+    align-items: center;
+}
+header img{
+    width: 150px;
+}
+
+section.top{
+    background-color: rgb(48, 128, 61);
+    background-size: cover;
+    padding: 15px;
+}
+
+h1.titre{
+    color: white;
+    font-size: 45px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+nav{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    display:flex;
+    justify-content: space-between;
+    list-style: none;
+    
+    width: 400px;
+    margin-left: 40px;
+
+}
+nav li a{
+    color: white;
+    text-decoration: none;
+}
+
+div.annonce{
+    display: flex;
+    background-color: rgb(48, 128, 61);
+    padding: 15px;
+}
+
+div.liste_article{
+    padding: 10px;
+    background-color: lightblue;
+    line-height: 50px;
+}
+
+table td, th{
+    border: 1px solid black;
+}
+table{
+    border-collapse: collapse;
+}
+
+form.recherche {
+    text-align: center;
+    padding-top: 20px;
+    /* background-color: red; */
+}
+form.recherche option {
+    margin-bottom: 50px;
+}
+input[type="submit"]{
+    width: 120px;
+    background-color: white;
+}
+
+p.comite{
+    text-align: center;
+    font-variant: small-caps;
+    font-size: 35px;
+}
+div.membre{
+    text-align: center;
+    margin-left: 10px;
+}
+
+
+
+div.footer{
+    display: flex;
+    align-items: center;
+    background-color: rgb(48, 128, 61);
+    position: fixed;
+    bottom:0;
+    width: 100%;
+    padding: 0px 10px;
+}
+div.footer img {
+    width: 50px;
+}
+
+div.admin{
+    align-items: center;
+    display: flex;
+    position: fixed;
+    right:0;
+}
+.admin1{
+    display: flex;
+}
+.admin2{
+    display: flex;
+    font-size: 20px;
+    padding: 15px;
+}
+
+div.page_admin{
+    height:100vh;
+    height: 100vh;
+    background-color: rgb(204, 204, 204);
+}
+
+
+table.affiche{
+    border-spacing: 15px;
+}
+td{
+    text-align: center;
+}
